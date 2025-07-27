@@ -1,0 +1,37 @@
+{
+  "session": "2025-07-27T16:13:45.772Z",
+  "successful": [
+    {
+      "name": "LazyImage",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/common/LazyImage/LazyImage.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/LazyImage.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "MessageTimer",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/common/MessageTimer/MessageTimer.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/MessageTimer.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "NotificationBell",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/common/NotificationBell/NotificationBell.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/NotificationBell.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "AgentStatusMonitor",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/agents/AgentStatusMonitor/AgentStatusMonitor.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/AgentStatusMonitor.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "AgentTriggerPanel",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/agents/AgentTriggerPanel/AgentTriggerPanel.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/AgentTriggerPanel.jsx",
+      "complexity": "complex"
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

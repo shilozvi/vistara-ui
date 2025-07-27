@@ -1,0 +1,33 @@
+{
+  "session": "2025-07-27T17:28:21.051Z",
+  "successful": [
+    {
+      "name": "ManagementPanel",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/settings/Management/ManagementPanel.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ManagementPanel.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "createMonitor",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/shared/BaseMonitor.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/BaseMonitor.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TokenUsageWidget",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/shared/TokenUsageWidget.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TokenUsageWidget.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TokenUsageMonitor",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/utils/ui/TokenUsageMonitor.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TokenUsageMonitor.jsx",
+      "complexity": "complex"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    "CompactTaskCard"
+  ]
+}

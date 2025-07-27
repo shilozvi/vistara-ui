@@ -1,0 +1,67 @@
+{
+  "session": "2025-07-27T16:20:29.570Z",
+  "successful": [
+    {
+      "name": "ChatInput",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/ChatInput.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ChatInput.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "ChatPanel",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/ChatPanel.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ChatPanel.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "ChatWindow",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/ChatWindow.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ChatWindow.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "MessageBubble",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/MessageBubble.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/MessageBubble.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "Phi3ManagerChat",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/Phi3ManagerChat.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/Phi3ManagerChat.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "BackupMonitor",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/BackupMonitor.new.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/monitoring/BackupMonitor.new.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "HealthStatusWidget",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/HealthStatusWidget.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/monitoring/HealthStatusWidget.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "NotificationToast",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/ProcessMonitor/NotificationToast.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/NotificationToast.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "ProcessMonitor",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/ProcessMonitor/ProcessMonitor.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ProcessMonitor.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "SystemLogs",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/ProcessMonitor/SystemLogs.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/SystemLogs.jsx",
+      "complexity": "complex"
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

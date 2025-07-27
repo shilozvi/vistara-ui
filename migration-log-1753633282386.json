@@ -1,0 +1,45 @@
+{
+  "session": "2025-07-27T16:21:21.760Z",
+  "successful": [
+    {
+      "name": "Navigation",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/Layout/Navigation.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/Navigation.jsx",
+      "complexity": "simple"
+    },
+    {
+      "name": "index.js",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/utils/ui/index.js",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/index.js.jsx",
+      "complexity": "simple"
+    },
+    {
+      "name": "ThemeButton",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/common/ThemeButton/ThemeButton.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ThemeButton.jsx",
+      "complexity": "simple"
+    },
+    {
+      "name": "sendMessage",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/SimpleMainView/SimpleMainView-streaming-patch.js",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/SimpleMainView-streaming-patch.js.jsx",
+      "complexity": "simple"
+    },
+    {
+      "name": "useAsyncFallback",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/SimpleMainView/useAsyncFallback.js",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/useAsyncFallback.js.jsx",
+      "complexity": "simple"
+    },
+    {
+      "name": "TailwindTest",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/utils/TailwindTest.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TailwindTest.jsx",
+      "complexity": "simple"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    "CompactTaskCard"
+  ]
+}

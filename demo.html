@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistara UI - Components Explorer Demo</title>
+    <style>
+        :root {
+            /* Primary Colors */
+            --color-primary: #6c5ce7;
+            --color-primary-light: #a29bfe;
+            --color-primary-dark: #5f3dc4;
+            
+            /* Neutral Colors */
+            --color-white: #ffffff;
+            --color-gray-50: #f9fafb;
+            --color-gray-100: #f3f4f6;
+            --color-gray-200: #e5e7eb;
+            --color-gray-300: #d1d5db;
+            --color-gray-400: #9ca3af;
+            --color-gray-600: #4b5563;
+            --color-gray-900: #111827;
+            
+            /* Status Colors */
+            --color-success: #00b894;
+            --color-info: #74b9ff;
+            --color-warning: #fdcb6e;
+            
+            /* Spacing */
+            --space-2: 0.5rem;
+            --space-3: 0.75rem;
+            --space-4: 1rem;
+            --space-6: 1.5rem;
+            --space-8: 2rem;
+            
+            /* Typography */
+            --font-size-xs: 0.75rem;
+            --font-size-sm: 0.875rem;
+            --font-size-base: 1rem;
+            --font-size-lg: 1.125rem;
+            --font-size-xl: 1.25rem;
+            --font-size-2xl: 1.5rem;
+            --font-size-3xl: 1.875rem;
+            
+            /* Border Radius */
+            --border-radius-md: 0.5rem;
+            --border-radius-lg: 0.75rem;
+            
+            /* Shadows */
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background-color: var(--color-gray-50);
+            color: var(--color-gray-900);
+            line-height: 1.5;
+            direction: rtl;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--space-6);
+        }
+        
+        .header {
+            background: var(--color-white);
+            padding: var(--space-6);
+            margin-bottom: var(--space-8);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+        }
+        
+        .title {
+            font-size: var(--font-size-3xl);
+            color: var(--color-primary);
+            margin-bottom: var(--space-2);
+        }
+        
+        .subtitle {
+            font-size: var(--font-size-lg);
+            color: var(--color-gray-600);
+        }
+        
+        .search-section {
+            background: var(--color-white);
+            padding: var(--space-6);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            margin-bottom: var(--space-6);
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: var(--space-3);
+            font-size: var(--font-size-base);
+            border: 2px solid var(--color-gray-200);
+            border-radius: var(--border-radius-md);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        
+        .search-input:focus {
+            border-color: var(--color-primary);
+        }
+        
+        .filters {
+            display: flex;
+            gap: var(--space-4);
+            margin-top: var(--space-4);
+            flex-wrap: wrap;
+        }
+        
+        .filter-select {
+            padding: var(--space-2) var(--space-3);
+            border: 1px solid var(--color-gray-200);
+            border-radius: var(--border-radius-md);
+            background: var(--color-white);
+            font-size: var(--font-size-sm);
+        }
+        
+        .components-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: var(--space-6);
+        }
+        
+        .component-card {
+            background: var(--color-white);
+            padding: var(--space-4);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        
+        .component-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+        
+        .component-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-3);
+        }
+        
+        .component-name {
+            font-size: var(--font-size-xl);
+            font-weight: bold;
+            color: var(--color-gray-900);
+        }
+        
+        .component-status {
+            background: var(--color-success);
+            color: var(--color-white);
+            padding: var(--space-2) var(--space-3);
+            border-radius: var(--border-radius-md);
+            font-size: var(--font-size-xs);
+        }
+        
+        .component-description {
+            color: var(--color-gray-600);
+            margin-bottom: var(--space-3);
+            font-size: var(--font-size-sm);
+        }
+        
+        .component-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-2);
+            margin-bottom: var(--space-3);
+        }
+        
+        .tag {
+            background: var(--color-primary-light);
+            color: var(--color-white);
+            padding: var(--space-1) var(--space-2);
+            border-radius: var(--border-radius-md);
+            font-size: var(--font-size-xs);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .tag:hover {
+            background: var(--color-primary);
+        }
+        
+        .component-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: var(--font-size-xs);
+            color: var(--color-gray-400);
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .modal-content {
+            background: var(--color-white);
+            padding: var(--space-6);
+            border-radius: var(--border-radius-lg);
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--space-4);
+        }
+        
+        .close-button {
+            background: none;
+            border: none;
+            font-size: var(--font-size-2xl);
+            cursor: pointer;
+            color: var(--color-gray-400);
+        }
+        
+        .success-banner {
+            background: var(--color-success);
+            color: var(--color-white);
+            padding: var(--space-4);
+            border-radius: var(--border-radius-lg);
+            text-align: center;
+            margin-bottom: var(--space-6);
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: var(--space-3);
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: var(--font-size-2xl);
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: var(--font-size-sm);
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🎯 Vistara UI</h1>
+            <p class="subtitle">Command your Design - מערכת רכיבים מתקדמת</p>
+        </div>
+        
+        <div class="success-banner">
+            <h2>🎉 ההעברה הושלמה בהצלחה!</h2>
+            <p>6 רכיבים מרכזיים הועברו מ-TitanMind ל-Vistara UI עם 100% CSS Variables</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">רכיבים</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">קטגוריות</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">CSS Variables</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="search-section">
+            <h2 style="margin-bottom: var(--space-4);">🔍 חיפוש רכיבים</h2>
+            <input 
+                type="text" 
+                class="search-input" 
+                placeholder="חפש רכיבים לפי שם, תיאור או תגיות..."
+                id="searchInput"
+            >
+            <div class="filters">
+                <select class="filter-select" id="categoryFilter">
+                    <option value="">כל הקטגוריות</option>
+                    <option value="common">Common</option>
+                    <option value="data">Data</option>
+                    <option value="display">Display</option>
+                    <option value="monitoring">Monitoring</option>
+                </select>
+                <select class="filter-select" id="complexityFilter">
+                    <option value="">כל הרמות</option>
+                    <option value="simple">פשוט</option>
+                    <option value="medium">בינוני</option>
+                    <option value="complex">מורכב</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="components-grid" id="componentsGrid"></div>
+        
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle"></h2>
+                    <button class="close-button" onclick="closeModal()">×</button>
+                </div>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const components = {
+            "CompactTaskCard": {
+                "category": "common",
+                "description": "Displays a compact view of a task with status indicators and action buttons",
+                "tags": ["task", "card", "ui", "management", "status"],
+                "complexity": "simple",
+                "path": "src/components/common/CompactTaskCard.jsx",
+                "features": ["Multiple size variants", "Theme customization", "CSS Variables only", "RTL support"]
+            },
+            "TokenUsageMonitor": {
+                "category": "data",
+                "description": "Real-time token usage monitoring with detailed insights and cost tracking",
+                "tags": ["token", "usage", "monitoring", "data", "analytics", "ai"],
+                "complexity": "medium",
+                "path": "src/components/data/TokenUsageMonitor.jsx",
+                "features": ["Real-time updates", "Cost calculations", "Usage patterns", "Mock data for demos"]
+            },
+            "SystemHealthDashboard": {
+                "category": "display",
+                "description": "Comprehensive system health dashboard with resource monitoring and performance metrics",
+                "tags": ["system", "health", "monitoring", "dashboard", "metrics", "performance"],
+                "complexity": "complex",
+                "path": "src/components/display/SystemHealthDashboard.jsx",
+                "features": ["CPU usage monitoring", "Memory tracking", "Disk space monitoring", "Alert system"]
+            },
+            "AgentCard": {
+                "category": "display",
+                "description": "Agent status monitoring card with real-time health tracking and performance indicators",
+                "tags": ["agent", "status", "monitoring", "ai", "health", "card"],
+                "complexity": "medium",
+                "path": "src/components/display/AgentCard.jsx",
+                "features": ["Real-time status updates", "Health indicators", "Performance metrics", "Agent avatar display"]
+            },
+            "BackupStatusCard": {
+                "category": "monitoring",
+                "description": "Comprehensive backup monitoring dashboard with storage usage and activity tracking",
+                "tags": ["backup", "monitoring", "storage", "health", "git", "icloud"],
+                "complexity": "complex",
+                "path": "src/components/monitoring/BackupStatusCard.jsx",
+                "features": ["Git repository status", "Local backup monitoring", "iCloud sync status", "Storage usage tracking"]
+            },
+            "TasksTable": {
+                "category": "data",
+                "description": "Full-featured task management table with CRUD operations, filtering, sorting, and transfer capabilities",
+                "tags": ["table", "tasks", "management", "crud", "filtering", "sorting"],
+                "complexity": "complex",
+                "path": "src/components/data/TasksTable.jsx",
+                "features": ["Complete CRUD operations", "Advanced filtering system", "Multi-column sorting", "Bulk operations"]
+            }
+        };
+        
+        function renderComponents(filteredComponents = components) {
+            const grid = document.getElementById('componentsGrid');
+            grid.innerHTML = '';
+            
+            Object.entries(filteredComponents).forEach(([name, component]) => {
+                const card = document.createElement('div');
+                card.className = 'component-card';
+                card.onclick = () => showModal(name, component);
+                
+                card.innerHTML = `
+                    <div class="component-header">
+                        <h3 class="component-name">${name}</h3>
+                        <span class="component-status">הועבר ✓</span>
+                    </div>
+                    <p class="component-description">${component.description}</p>
+                    <div class="component-tags">
+                        ${component.tags.map(tag => `<span class="tag" onclick="filterByTag('${tag}', event)">${tag}</span>`).join('')}
+                    </div>
+                    <div class="component-meta">
+                        <span>${component.category}</span>
+                        <span>${component.complexity}</span>
+                    </div>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+        
+        function filterComponents() {
+            const searchValue = document.getElementById('searchInput').value.toLowerCase();
+            const categoryValue = document.getElementById('categoryFilter').value;
+            const complexityValue = document.getElementById('complexityFilter').value;
+            
+            const filtered = {};
+            
+            Object.entries(components).forEach(([name, component]) => {
+                const matchesSearch = !searchValue || 
+                    name.toLowerCase().includes(searchValue) ||
+                    component.description.toLowerCase().includes(searchValue) ||
+                    component.tags.some(tag => tag.toLowerCase().includes(searchValue));
+                
+                const matchesCategory = !categoryValue || component.category === categoryValue;
+                const matchesComplexity = !complexityValue || component.complexity === complexityValue;
+                
+                if (matchesSearch && matchesCategory && matchesComplexity) {
+                    filtered[name] = component;
+                }
+            });
+            
+            renderComponents(filtered);
+        }
+        
+        function filterByTag(tag, event) {
+            event.stopPropagation();
+            document.getElementById('searchInput').value = tag;
+            filterComponents();
+        }
+        
+        function showModal(name, component) {
+            document.getElementById('modalTitle').textContent = name;
+            document.getElementById('modalBody').innerHTML = `
+                <p><strong>תיאור:</strong> ${component.description}</p>
+                <p><strong>קטגוריה:</strong> ${component.category}</p>
+                <p><strong>מורכבות:</strong> ${component.complexity}</p>
+                <p><strong>נתיב:</strong> <code>${component.path}</code></p>
+                <p><strong>תכונות:</strong></p>
+                <ul>
+                    ${component.features.map(feature => `<li>${feature}</li>`).join('')}
+                </ul>
+                <p><strong>תגיות:</strong> ${component.tags.join(', ')}</p>
+            `;
+            document.getElementById('modal').style.display = 'flex';
+        }
+        
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+        
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', filterComponents);
+        document.getElementById('categoryFilter').addEventListener('change', filterComponents);
+        document.getElementById('complexityFilter').addEventListener('change', filterComponents);
+        
+        // Close modal on background click
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') {
+                closeModal();
+            }
+        });
+        
+        // Initial render
+        renderComponents();
+    </script>
+</body>
+</html>

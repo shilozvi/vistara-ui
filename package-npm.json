@@ -1,0 +1,55 @@
+{
+  "name": "@vistara/ui",
+  "version": "1.0.0",
+  "description": "Modern React UI component library with CSS Variables - Command your Design",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/components",
+    "src/styles",
+    "src/utils"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "css-variables",
+    "design-system",
+    "vistara",
+    "ui-library",
+    "react-components"
+  ],
+  "author": "Falcon AI",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-css-only": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/vistara-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vistara-ui/issues"
+  },
+  "homepage": "https://github.com/yourusername/vistara-ui#readme"
+}

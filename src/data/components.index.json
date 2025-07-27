@@ -1,0 +1,2744 @@
+{
+  "meta": {
+    "version": "0.2.0",
+    "lastUpdated": "2025-07-27",
+    "totalComponents": 53,
+    "description": "Vistara UI Component Library Index - מערכת חיפוש וניהול רכיבים"
+  },
+  "components": {
+    "AgentAvatar": {
+      "path": "src/components/common/AgentAvatar.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/AgentAvatar",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "AgentAvatar component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "AgentStatus": {
+      "path": "src/components/common/AgentStatus.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/AgentStatus",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "AgentStatus component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "AgentStatusMonitor": {
+      "path": "src/components/common/AgentStatusMonitor.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/AgentStatusMonitor",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "AgentStatusMonitor component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "AgentTriggerPanel": {
+      "path": "src/components/common/AgentTriggerPanel.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/AgentTriggerPanel",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "AgentTriggerPanel component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "AsyncChatButton": {
+      "path": "src/components/common/AsyncChatButton.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/AsyncChatButton",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "AsyncChatButton component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "BulkTaskUpload": {
+      "path": "src/components/common/BulkTaskUpload.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/BulkTaskUpload",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "BulkTaskUpload component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ChatInput": {
+      "path": "src/components/common/ChatInput.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ChatInput",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ChatInput component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ChatPanel": {
+      "path": "src/components/common/ChatPanel.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ChatPanel",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ChatPanel component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ChatTasksMonitor": {
+      "path": "src/components/common/ChatTasksMonitor.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ChatTasksMonitor",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ChatTasksMonitor component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ChatWindow": {
+      "path": "src/components/common/ChatWindow.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ChatWindow",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ChatWindow component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "CompactTaskCard": {
+      "path": "src/components/common/CompactTaskCard.jsx",
+      "category": "common",
+      "props": [
+        "task",
+        "onComplete",
+        "onDelete",
+        "size",
+        "theme"
+      ],
+      "requiredProps": [
+        "task"
+      ],
+      "variants": {
+        "size": [
+          "small",
+          "normal",
+          "large"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-26",
+      "sourceComponent": "TitanMind/CompactTaskCard",
+      "tags": [
+        "task",
+        "card",
+        "ui",
+        "management",
+        "status"
+      ],
+      "description": "Displays a compact view of a task with status indicators and action buttons",
+      "features": [
+        "Multiple size variants",
+        "Theme customization",
+        "CSS Variables only",
+        "RTL support",
+        "Status indicators",
+        "Action buttons"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "CreateTaskPage": {
+      "path": "src/components/common/CreateTaskPage.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/CreateTaskPage",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "CreateTaskPage component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "Dashboard": {
+      "path": "src/components/common/Dashboard.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/Dashboard",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "Dashboard component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "DashboardTaskSection": {
+      "path": "src/components/common/DashboardTaskSection.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/DashboardTaskSection",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "DashboardTaskSection component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "Header": {
+      "path": "src/components/common/Header.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/Header",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "Header component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "Layout": {
+      "path": "src/components/common/Layout.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/Layout",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "Layout component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "LazyImage": {
+      "path": "src/components/common/LazyImage.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/LazyImage",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "LazyImage component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "MainView": {
+      "path": "src/components/common/MainView.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/MainView",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "MainView component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "MessageBubble": {
+      "path": "src/components/common/MessageBubble.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/MessageBubble",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "MessageBubble component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "MessageTimer": {
+      "path": "src/components/common/MessageTimer.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/MessageTimer",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "MessageTimer component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "Navigation": {
+      "path": "src/components/common/Navigation.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/Navigation",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "Navigation component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "NotificationBell": {
+      "path": "src/components/common/NotificationBell.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/NotificationBell",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "NotificationBell component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "NotificationToast": {
+      "path": "src/components/common/NotificationToast.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/NotificationToast",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "NotificationToast component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "Phi3ManagerChat": {
+      "path": "src/components/common/Phi3ManagerChat.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/Phi3ManagerChat",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "Phi3ManagerChat component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ProcessMonitor": {
+      "path": "src/components/common/ProcessMonitor.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ProcessMonitor",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ProcessMonitor component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "StreamingButton": {
+      "path": "src/components/common/StreamingButton.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/StreamingButton",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "StreamingButton component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "StreamingMessage": {
+      "path": "src/components/common/StreamingMessage.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/StreamingMessage",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "StreamingMessage component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "SystemLogs": {
+      "path": "src/components/common/SystemLogs.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/SystemLogs",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "SystemLogs component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TaskBotPanel": {
+      "path": "src/components/common/TaskBotPanel.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskBotPanel",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskBotPanel component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TaskCard": {
+      "path": "src/components/common/TaskCard.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskCard",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskCard component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TaskDetailModal": {
+      "path": "src/components/common/TaskDetailModal.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskDetailModal",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskDetailModal component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TaskFilters": {
+      "path": "src/components/common/TaskFilters.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskFilters",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskFilters component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TaskForm.updated": {
+      "path": "src/components/common/TaskForm.updated.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskForm.updated",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskForm.updated component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TaskManager": {
+      "path": "src/components/common/TaskManager.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskManager",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskManager component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TasksCSVTable": {
+      "path": "src/components/common/TasksCSVTable.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TasksCSVTable",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TasksCSVTable component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TasksTable": {
+      "path": "src/components/data/TasksTable.jsx",
+      "category": "data",
+      "props": [
+        "size",
+        "theme",
+        "mockData",
+        "onTaskUpdate",
+        "onTaskDelete",
+        "onTaskTransfer"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TasksTable",
+      "tags": [
+        "table",
+        "tasks",
+        "management",
+        "crud",
+        "filtering",
+        "sorting"
+      ],
+      "description": "Full-featured task management table with CRUD operations, filtering, sorting, and transfer capabilities",
+      "features": [
+        "Complete CRUD operations",
+        "Advanced filtering system",
+        "Multi-column sorting",
+        "Task transfer functionality",
+        "Modal dialogs",
+        "Bulk operations",
+        "Export capabilities",
+        "Hebrew RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles",
+        "lucide-react"
+      ],
+      "hasDemo": true,
+      "complexity": "complex"
+    },
+    "TaskSummaryCompact": {
+      "path": "src/components/common/TaskSummaryCompact.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TaskSummaryCompact",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TaskSummaryCompact component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TerminalPoolStatus": {
+      "path": "src/components/common/TerminalPoolStatus.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TerminalPoolStatus",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TerminalPoolStatus component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ThemeButton": {
+      "path": "src/components/common/ThemeButton.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ThemeButton",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ThemeButton component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ThemeDemo": {
+      "path": "src/components/common/ThemeDemo.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ThemeDemo",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ThemeDemo component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "ThemeToggle": {
+      "path": "src/components/common/ThemeToggle.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/ThemeToggle",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "ThemeToggle component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TypingIndicator": {
+      "path": "src/components/common/TypingIndicator.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/TypingIndicator",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "TypingIndicator component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "useAsyncFallback.js": {
+      "path": "src/components/common/useAsyncFallback.js.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/useAsyncFallback.js",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "useAsyncFallback.js component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "VoiceInput": {
+      "path": "src/components/common/VoiceInput.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/VoiceInput",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "VoiceInput component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "VoiceSettings": {
+      "path": "src/components/common/VoiceSettings.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/VoiceSettings",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "VoiceSettings component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "VoiceWave": {
+      "path": "src/components/common/VoiceWave.jsx",
+      "category": "common",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/VoiceWave",
+      "tags": [
+        "common",
+        "ui",
+        "component"
+      ],
+      "description": "VoiceWave component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "TokenUsageMonitor": {
+      "path": "src/components/data/TokenUsageMonitor.jsx",
+      "category": "data",
+      "props": [
+        "size",
+        "theme",
+        "refreshInterval",
+        "mockData"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-26",
+      "sourceComponent": "TitanMind/TokenUsageMonitor",
+      "tags": [
+        "token",
+        "usage",
+        "monitoring",
+        "data",
+        "analytics",
+        "ai"
+      ],
+      "description": "Real-time token usage monitoring with detailed insights and cost tracking",
+      "features": [
+        "Real-time updates",
+        "Cost calculations",
+        "Usage patterns",
+        "Multiple size variants",
+        "Theme support",
+        "Mock data for demos"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles",
+        "lucide-react"
+      ],
+      "hasDemo": true,
+      "complexity": "medium"
+    },
+    "AgentCard": {
+      "path": "src/components/display/AgentCard.jsx",
+      "category": "display",
+      "props": [
+        "size",
+        "theme",
+        "refreshInterval",
+        "mockData"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/AgentStatus",
+      "tags": [
+        "agent",
+        "status",
+        "monitoring",
+        "ai",
+        "health",
+        "card"
+      ],
+      "description": "Agent status monitoring card with real-time health tracking and performance indicators",
+      "features": [
+        "Real-time status updates",
+        "Health indicators",
+        "Performance metrics",
+        "Agent avatar display",
+        "Status history",
+        "Multiple display modes"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles",
+        "lucide-react"
+      ],
+      "hasDemo": true,
+      "complexity": "medium"
+    },
+    "SystemHealthDashboard": {
+      "path": "src/components/display/SystemHealthDashboard.jsx",
+      "category": "display",
+      "props": [
+        "size",
+        "theme",
+        "refreshInterval",
+        "mockData"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-26",
+      "sourceComponent": "TitanMind/SystemResourcesOverview",
+      "tags": [
+        "system",
+        "health",
+        "monitoring",
+        "dashboard",
+        "metrics",
+        "performance"
+      ],
+      "description": "Comprehensive system health dashboard with resource monitoring and performance metrics",
+      "features": [
+        "CPU usage monitoring",
+        "Memory tracking",
+        "Disk space monitoring",
+        "Network statistics",
+        "Real-time updates",
+        "Alert system"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles",
+        "lucide-react"
+      ],
+      "hasDemo": true,
+      "complexity": "complex"
+    },
+    "BackupMonitor.new": {
+      "path": "src/components/monitoring/BackupMonitor.new.jsx",
+      "category": "monitoring",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/BackupMonitor.new",
+      "tags": [
+        "monitoring",
+        "ui",
+        "component"
+      ],
+      "description": "BackupMonitor.new component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "BackupStatusCard": {
+      "path": "src/components/monitoring/BackupStatusCard.jsx",
+      "category": "monitoring",
+      "props": [
+        "size",
+        "theme",
+        "refreshInterval",
+        "mockData"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/BackupMonitor",
+      "tags": [
+        "backup",
+        "monitoring",
+        "storage",
+        "health",
+        "git",
+        "icloud"
+      ],
+      "description": "Comprehensive backup monitoring dashboard with storage usage and activity tracking",
+      "features": [
+        "Git repository status",
+        "Local backup monitoring",
+        "iCloud sync status",
+        "Storage usage tracking",
+        "Activity timeline",
+        "Health indicators",
+        "Hebrew RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles",
+        "lucide-react"
+      ],
+      "hasDemo": true,
+      "complexity": "complex"
+    },
+    "HealthStatusWidget": {
+      "path": "src/components/monitoring/HealthStatusWidget.jsx",
+      "category": "monitoring",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/HealthStatusWidget",
+      "tags": [
+        "monitoring",
+        "ui",
+        "component"
+      ],
+      "description": "HealthStatusWidget component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    },
+    "SystemResourcesMonitor": {
+      "path": "src/components/monitoring/SystemResourcesMonitor.jsx",
+      "category": "monitoring",
+      "props": [
+        "size",
+        "theme",
+        "className",
+        "style"
+      ],
+      "requiredProps": [],
+      "variants": {
+        "size": [
+          "compact",
+          "normal",
+          "expanded"
+        ],
+        "theme": [
+          "default",
+          "minimal",
+          "detailed"
+        ]
+      },
+      "status": "migrated",
+      "migrationDate": "2025-07-27",
+      "sourceComponent": "TitanMind/SystemResourcesMonitor",
+      "tags": [
+        "monitoring",
+        "ui",
+        "component"
+      ],
+      "description": "SystemResourcesMonitor component migrated from TitanMind",
+      "features": [
+        "CSS Variables only",
+        "Multiple size variants",
+        "Theme customization",
+        "RTL support"
+      ],
+      "dependencies": [
+        "normalizeStyle",
+        "withNormalizedStyles"
+      ],
+      "hasDemo": true,
+      "complexity": "simple"
+    }
+  },
+  "searchIndex": {
+    "byCategory": {
+      "common": [
+        "AgentAvatar",
+        "AgentStatus",
+        "AgentStatusMonitor",
+        "AgentTriggerPanel",
+        "AsyncChatButton",
+        "BulkTaskUpload",
+        "ChatInput",
+        "ChatPanel",
+        "ChatTasksMonitor",
+        "ChatWindow",
+        "CompactTaskCard",
+        "CreateTaskPage",
+        "Dashboard",
+        "DashboardTaskSection",
+        "Header",
+        "Layout",
+        "LazyImage",
+        "MainView",
+        "MessageBubble",
+        "MessageTimer",
+        "Navigation",
+        "NotificationBell",
+        "NotificationToast",
+        "Phi3ManagerChat",
+        "ProcessMonitor",
+        "StreamingButton",
+        "StreamingMessage",
+        "SystemLogs",
+        "TaskBotPanel",
+        "TaskCard",
+        "TaskDetailModal",
+        "TaskFilters",
+        "TaskForm.updated",
+        "TaskManager",
+        "TasksCSVTable",
+        "TaskSummaryCompact",
+        "TerminalPoolStatus",
+        "ThemeButton",
+        "ThemeDemo",
+        "ThemeToggle",
+        "TypingIndicator",
+        "useAsyncFallback.js",
+        "VoiceInput",
+        "VoiceSettings",
+        "VoiceWave"
+      ],
+      "data": [
+        "TasksTable",
+        "TokenUsageMonitor"
+      ],
+      "display": [
+        "AgentCard",
+        "SystemHealthDashboard"
+      ],
+      "monitoring": [
+        "BackupMonitor.new",
+        "BackupStatusCard",
+        "HealthStatusWidget",
+        "SystemResourcesMonitor"
+      ]
+    },
+    "byTags": {
+      "common": [
+        "AgentAvatar",
+        "AgentStatus",
+        "AgentStatusMonitor",
+        "AgentTriggerPanel",
+        "AsyncChatButton",
+        "BulkTaskUpload",
+        "ChatInput",
+        "ChatPanel",
+        "ChatTasksMonitor",
+        "ChatWindow",
+        "CreateTaskPage",
+        "Dashboard",
+        "DashboardTaskSection",
+        "Header",
+        "Layout",
+        "LazyImage",
+        "MainView",
+        "MessageBubble",
+        "MessageTimer",
+        "Navigation",
+        "NotificationBell",
+        "NotificationToast",
+        "Phi3ManagerChat",
+        "ProcessMonitor",
+        "StreamingButton",
+        "StreamingMessage",
+        "SystemLogs",
+        "TaskBotPanel",
+        "TaskCard",
+        "TaskDetailModal",
+        "TaskFilters",
+        "TaskForm.updated",
+        "TaskManager",
+        "TasksCSVTable",
+        "TaskSummaryCompact",
+        "TerminalPoolStatus",
+        "ThemeButton",
+        "ThemeDemo",
+        "ThemeToggle",
+        "TypingIndicator",
+        "useAsyncFallback.js",
+        "VoiceInput",
+        "VoiceSettings",
+        "VoiceWave"
+      ],
+      "ui": [
+        "AgentAvatar",
+        "AgentStatus",
+        "AgentStatusMonitor",
+        "AgentTriggerPanel",
+        "AsyncChatButton",
+        "BulkTaskUpload",
+        "ChatInput",
+        "ChatPanel",
+        "ChatTasksMonitor",
+        "ChatWindow",
+        "CompactTaskCard",
+        "CreateTaskPage",
+        "Dashboard",
+        "DashboardTaskSection",
+        "Header",
+        "Layout",
+        "LazyImage",
+        "MainView",
+        "MessageBubble",
+        "MessageTimer",
+        "Navigation",
+        "NotificationBell",
+        "NotificationToast",
+        "Phi3ManagerChat",
+        "ProcessMonitor",
+        "StreamingButton",
+        "StreamingMessage",
+        "SystemLogs",
+        "TaskBotPanel",
+        "TaskCard",
+        "TaskDetailModal",
+        "TaskFilters",
+        "TaskForm.updated",
+        "TaskManager",
+        "TasksCSVTable",
+        "TaskSummaryCompact",
+        "TerminalPoolStatus",
+        "ThemeButton",
+        "ThemeDemo",
+        "ThemeToggle",
+        "TypingIndicator",
+        "useAsyncFallback.js",
+        "VoiceInput",
+        "VoiceSettings",
+        "VoiceWave",
+        "BackupMonitor.new",
+        "HealthStatusWidget",
+        "SystemResourcesMonitor"
+      ],
+      "component": [
+        "AgentAvatar",
+        "AgentStatus",
+        "AgentStatusMonitor",
+        "AgentTriggerPanel",
+        "AsyncChatButton",
+        "BulkTaskUpload",
+        "ChatInput",
+        "ChatPanel",
+        "ChatTasksMonitor",
+        "ChatWindow",
+        "CreateTaskPage",
+        "Dashboard",
+        "DashboardTaskSection",
+        "Header",
+        "Layout",
+        "LazyImage",
+        "MainView",
+        "MessageBubble",
+        "MessageTimer",
+        "Navigation",
+        "NotificationBell",
+        "NotificationToast",
+        "Phi3ManagerChat",
+        "ProcessMonitor",
+        "StreamingButton",
+        "StreamingMessage",
+        "SystemLogs",
+        "TaskBotPanel",
+        "TaskCard",
+        "TaskDetailModal",
+        "TaskFilters",
+        "TaskForm.updated",
+        "TaskManager",
+        "TasksCSVTable",
+        "TaskSummaryCompact",
+        "TerminalPoolStatus",
+        "ThemeButton",
+        "ThemeDemo",
+        "ThemeToggle",
+        "TypingIndicator",
+        "useAsyncFallback.js",
+        "VoiceInput",
+        "VoiceSettings",
+        "VoiceWave",
+        "BackupMonitor.new",
+        "HealthStatusWidget",
+        "SystemResourcesMonitor"
+      ],
+      "task": [
+        "CompactTaskCard"
+      ],
+      "card": [
+        "CompactTaskCard",
+        "AgentCard"
+      ],
+      "management": [
+        "CompactTaskCard",
+        "TasksTable"
+      ],
+      "status": [
+        "CompactTaskCard",
+        "AgentCard"
+      ],
+      "table": [
+        "TasksTable"
+      ],
+      "tasks": [
+        "TasksTable"
+      ],
+      "crud": [
+        "TasksTable"
+      ],
+      "filtering": [
+        "TasksTable"
+      ],
+      "sorting": [
+        "TasksTable"
+      ],
+      "token": [
+        "TokenUsageMonitor"
+      ],
+      "usage": [
+        "TokenUsageMonitor"
+      ],
+      "monitoring": [
+        "TokenUsageMonitor",
+        "AgentCard",
+        "SystemHealthDashboard",
+        "BackupMonitor.new",
+        "BackupStatusCard",
+        "HealthStatusWidget",
+        "SystemResourcesMonitor"
+      ],
+      "data": [
+        "TokenUsageMonitor"
+      ],
+      "analytics": [
+        "TokenUsageMonitor"
+      ],
+      "ai": [
+        "TokenUsageMonitor",
+        "AgentCard"
+      ],
+      "agent": [
+        "AgentCard"
+      ],
+      "health": [
+        "AgentCard",
+        "SystemHealthDashboard",
+        "BackupStatusCard"
+      ],
+      "system": [
+        "SystemHealthDashboard"
+      ],
+      "dashboard": [
+        "SystemHealthDashboard"
+      ],
+      "metrics": [
+        "SystemHealthDashboard"
+      ],
+      "performance": [
+        "SystemHealthDashboard"
+      ],
+      "backup": [
+        "BackupStatusCard"
+      ],
+      "storage": [
+        "BackupStatusCard"
+      ],
+      "git": [
+        "BackupStatusCard"
+      ],
+      "icloud": [
+        "BackupStatusCard"
+      ]
+    },
+    "byComplexity": {
+      "simple": [
+        "AgentAvatar",
+        "AgentStatus",
+        "AgentStatusMonitor",
+        "AgentTriggerPanel",
+        "AsyncChatButton",
+        "BulkTaskUpload",
+        "ChatInput",
+        "ChatPanel",
+        "ChatTasksMonitor",
+        "ChatWindow",
+        "CompactTaskCard",
+        "CreateTaskPage",
+        "Dashboard",
+        "DashboardTaskSection",
+        "Header",
+        "Layout",
+        "LazyImage",
+        "MainView",
+        "MessageBubble",
+        "MessageTimer",
+        "Navigation",
+        "NotificationBell",
+        "NotificationToast",
+        "Phi3ManagerChat",
+        "ProcessMonitor",
+        "StreamingButton",
+        "StreamingMessage",
+        "SystemLogs",
+        "TaskBotPanel",
+        "TaskCard",
+        "TaskDetailModal",
+        "TaskFilters",
+        "TaskForm.updated",
+        "TaskManager",
+        "TasksCSVTable",
+        "TaskSummaryCompact",
+        "TerminalPoolStatus",
+        "ThemeButton",
+        "ThemeDemo",
+        "ThemeToggle",
+        "TypingIndicator",
+        "useAsyncFallback.js",
+        "VoiceInput",
+        "VoiceSettings",
+        "VoiceWave",
+        "BackupMonitor.new",
+        "HealthStatusWidget",
+        "SystemResourcesMonitor"
+      ],
+      "complex": [
+        "TasksTable",
+        "SystemHealthDashboard",
+        "BackupStatusCard"
+      ],
+      "medium": [
+        "TokenUsageMonitor",
+        "AgentCard"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "vistara-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "npm start",
+    "scan-hardcoded": "node scripts/detect-hardcoded-values.js",
+    "convert-hardcoded": "node scripts/auto-convert-hardcoded.js",
+    "convert-hardcoded-dry": "node scripts/auto-convert-hardcoded.js --dry-run",
+    "validate-design-system": "npm run scan-hardcoded && echo '✅ Design system validation complete'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "lucide-react": "^0.526.0",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

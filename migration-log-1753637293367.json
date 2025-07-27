@@ -1,0 +1,67 @@
+{
+  "session": "2025-07-27T17:28:12.318Z",
+  "successful": [
+    {
+      "name": "QuickActions",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/QuickActions.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/QuickActions.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "RecentActivity",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/RecentActivity.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/RecentActivity.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "SystemStats",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/SystemStats.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/SystemStats.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "SimpleBarChart",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/TokenAnalytics.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TokenAnalytics.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "DashboardMainView",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/DashboardMainView/DashboardMainView.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/DashboardMainView.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "MonitorPage",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/MonitorPage/MonitorPage.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/MonitorPage.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "SimpleMainView",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/SimpleMainView/SimpleMainView.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/SimpleMainView.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "VoiceTestPage",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/VoiceTestPage/VoiceTestPage.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/VoiceTestPage.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "DataSettings",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/settings/DataSettings/DataSettings.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/DataSettings.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "GPTSettings",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/settings/GPTSettings/GPTSettings.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/GPTSettings.jsx",
+      "complexity": "complex"
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

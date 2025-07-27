@@ -1,0 +1,73 @@
+{
+  "session": "2025-07-27T16:21:36.518Z",
+  "successful": [
+    {
+      "name": "Header",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/Layout/Header.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/Header.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "Layout",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/Layout/Layout.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/Layout.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "ThemeToggle",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/common/ThemeToggle/ThemeToggle.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ThemeToggle.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "AgentAvatar",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/AgentAvatar.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/AgentAvatar.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "TypingIndicator",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/chat/ChatPanel/TypingIndicator.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TypingIndicator.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "VoiceWave",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/voice/VoiceWave/VoiceWave.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/VoiceWave.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "MainView",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/MainView/MainView.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/MainView.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "AsyncChatButton",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/SimpleMainView/AsyncChatButton.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/AsyncChatButton.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "StreamingButton",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/SimpleMainView/StreamingButton.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/StreamingButton.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "StreamingMessage",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/SimpleMainView/StreamingMessage.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/StreamingMessage.jsx",
+      "complexity": "medium"
+    },
+    {
+      "name": "ThemeDemo",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/ThemeDemo/ThemeDemo.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ThemeDemo.jsx",
+      "complexity": "medium"
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

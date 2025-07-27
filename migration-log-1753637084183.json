@@ -1,0 +1,67 @@
+{
+  "session": "2025-07-27T17:24:43.127Z",
+  "successful": [
+    {
+      "name": "SystemHealthDashboard",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/SystemHealthDashboard.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/monitoring/SystemHealthDashboard.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "SystemResources",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/SystemResourcesMonitor.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/monitoring/SystemResourcesMonitor.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TerminalPoolStatus",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/monitoring/TerminalPoolStatus/TerminalPoolStatus.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TerminalPoolStatus.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "ChatTasksMonitor",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/ChatTasksMonitor/ChatTasksMonitor.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/ChatTasksMonitor.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TaskBotPanel",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskBotPanel.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskBotPanel.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TaskDetailModal",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskDetailModal/TaskDetailModal.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskDetailModal.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TaskCard",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskManager/TaskCard.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskCard.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TaskFilters",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskManager/TaskFilters.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskFilters.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TaskForm",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskManager/TaskForm.updated.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskForm.updated.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TaskManager",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskManager/TaskManager.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskManager.jsx",
+      "complexity": "complex"
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

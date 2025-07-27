@@ -1,0 +1,67 @@
+{
+  "session": "2025-07-27T17:27:06.136Z",
+  "successful": [
+    {
+      "name": "TaskSummaryCompact",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TaskSummaryCompact/TaskSummaryCompact.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TaskSummaryCompact.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TasksCSVTable",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TasksCSVTable/TasksCSVTable.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TasksCSVTable.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "TransferTaskForm",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/tasks/TasksTable/TasksTable.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/TasksTable.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "WaveformVisualizer",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/voice/VoiceInput.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/VoiceInput.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "VoiceSettings",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/features/voice/VoiceSettings.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/VoiceSettings.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "BulkTaskUpload",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/CreateTaskPage/BulkTaskUpload.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/BulkTaskUpload.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "CreateTaskPage",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/CreateTaskPage/CreateTaskPage.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/CreateTaskPage.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "AgentStatus",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/AgentStatus.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/AgentStatus.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "Dashboard",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/Dashboard.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/Dashboard.jsx",
+      "complexity": "complex"
+    },
+    {
+      "name": "DashboardTaskSection",
+      "from": "/Users/zvishilovitsky/TitanMind/dashboard/frontend/src/components/pages/Dashboard/DashboardTaskSection.jsx",
+      "to": "/Users/zvishilovitsky/vistara-ui/src/components/common/DashboardTaskSection.jsx",
+      "complexity": "complex"
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}
