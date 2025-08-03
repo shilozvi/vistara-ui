@@ -4,3 +4,13 @@ build/
 *.log
 .env
 .DS_Store
+
+# Backup files
+backups/local/
+backups/github/
+backups/icloud/
+backups/encrypted/
+backups/logs/
+backups/LAST_*_STATUS.md
+*.tar.gz
+*.checksum
