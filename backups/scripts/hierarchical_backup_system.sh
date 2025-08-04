@@ -19,9 +19,9 @@ MINUTE=$(date +%M)
 LOG_FILE="/Users/zvishilovitsky/TitanMind/backups/logs/unified_hierarchical_backup.log"
 
 # Retention policies
-HOURLY_RETENTION_HOURS=6     # Keep 6 hours
-DAILY_RETENTION_DAYS=7       # Keep 7 days
-WEEKLY_RETENTION_DAYS=52     # Keep 1 year
+HOURLY_RETENTION_HOURS=48    # Keep 48 hours (as per principle 15)
+DAILY_RETENTION_DAYS=30      # Keep 30 days (as per principle 16)
+WEEKLY_RETENTION_DAYS=52     # Keep 1 year (as per principle 17)
 
 # Function to log messages
 log_message() {
