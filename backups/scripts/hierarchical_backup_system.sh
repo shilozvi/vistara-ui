@@ -193,7 +193,7 @@ backup_to_azure() {
         log_message "✅ Successfully backed up to Azure DevOps"
         
         # Update status file
-        cat > "$project_root/backups/LAST_AZURE_BACKUP_STATUS.md" << EOF
+        cat > "/tmp/backup_status/LAST_AZURE_BACKUP_STATUS_VistaraUI.md" << EOF
 # Last Azure DevOps Backup Status - $project_name
 
 **Last Backup:** $(date '+%Y-%m-%d %H:%M:%S')
@@ -223,7 +223,7 @@ EOF
         log_message "⚠️ Azure DevOps push failed - authentication needed"
         
         # Create failed status file
-        cat > "$project_root/backups/LAST_AZURE_BACKUP_STATUS.md" << EOF
+        cat > "/tmp/backup_status/LAST_AZURE_BACKUP_STATUS_VistaraUI.md" << EOF
 # Last Azure DevOps Backup Status - $project_name
 
 **Last Backup:** $(date '+%Y-%m-%d %H:%M:%S')

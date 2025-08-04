@@ -93,7 +93,7 @@ backup_to_azure() {
         send_alert "ERROR" "Azure DevOps push failed for Vistara-UI - authentication may be needed"
         
         # Create failed status file
-        cat > "$PROJECT_DIR/backups/LAST_AZURE_BACKUP_STATUS.md" << EOF
+        cat > "/tmp/backup_status/LAST_AZURE_BACKUP_STATUS_VistaraUI.md" << EOF
 # Last Azure DevOps Backup Status - Vistara-UI
 
 **Last Backup:** $(date '+%Y-%m-%d %H:%M:%S')
@@ -120,7 +120,7 @@ EOF
     fi
         
     # Update status file (for both success cases)
-    cat > "$PROJECT_DIR/backups/LAST_AZURE_BACKUP_STATUS.md" << EOF
+    cat > "/tmp/backup_status/LAST_AZURE_BACKUP_STATUS_VistaraUI.md" << EOF
 # Last Azure DevOps Backup Status - Vistara-UI
 
 **Last Backup:** $(date '+%Y-%m-%d %H:%M:%S')
