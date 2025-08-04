@@ -79,37 +79,15 @@ backup_to_azure() {
     
     # Push to Azure
     log "📤 Pushing to Azure DevOps..."
-    if git push azure "$current_branch" 2>/dev/null; then
+    push_output=$(git push azure "$current_branch" 2>&1)
+    push_result=$?
+    
+    if [ $push_result -eq 0 ]; then
         log "✅ Successfully backed up to Azure DevOps"
         send_alert "INFO" "Azure DevOps backup completed successfully for Vistara-UI"
-        
-        # Update status file
-        cat > "$PROJECT_DIR/backups/LAST_AZURE_BACKUP_STATUS.md" << EOF
-# Last Azure DevOps Backup Status - Vistara-UI
-
-**Last Backup:** $(date '+%Y-%m-%d %H:%M:%S')
-**Status:** ✅ SUCCESS
-
-## Details:
-- **Branch:** $current_branch
-- **Remote:** https://dev.azure.com/shilozvi/Vistara-UI/_git/Vistara-UI
-- **Commit:** $(git rev-parse --short HEAD)
-- **Message:** $(git log -1 --format="%s")
-
-## Verify:
-\`\`\`bash
-# Check status
-cd $PROJECT_DIR
-git status
-
-# View in Azure DevOps
-open "https://dev.azure.com/shilozvi/Vistara-UI/_git/Vistara-UI"
-\`\`\`
-
----
-*Azure DevOps backup - runs every hour at :00 minutes*
-EOF
-        return 0
+    elif echo "$push_output" | grep -q "Everything up-to-date"; then
+        log "✅ Azure DevOps is up-to-date (no new changes to push)"
+        send_alert "INFO" "Azure DevOps backup completed - repository is up-to-date"
     else
         error_log "Failed to push to Azure DevOps"
         send_alert "ERROR" "Azure DevOps push failed for Vistara-UI - authentication may be needed"
@@ -140,6 +118,34 @@ Azure DevOps requires Personal Access Token authentication.
 EOF
         return 1
     fi
+        
+    # Update status file (for both success cases)
+    cat > "$PROJECT_DIR/backups/LAST_AZURE_BACKUP_STATUS.md" << EOF
+# Last Azure DevOps Backup Status - Vistara-UI
+
+**Last Backup:** $(date '+%Y-%m-%d %H:%M:%S')
+**Status:** ✅ SUCCESS
+
+## Details:
+- **Branch:** $current_branch
+- **Remote:** https://dev.azure.com/shilozvi/Vistara-UI/_git/Vistara-UI
+- **Commit:** $(git rev-parse --short HEAD)
+- **Message:** $(git log -1 --format="%s")
+
+## Verify:
+\`\`\`bash
+# Check status
+cd $PROJECT_DIR
+git status
+
+# View in Azure DevOps
+open "https://dev.azure.com/shilozvi/Vistara-UI/_git/Vistara-UI"
+\`\`\`
+
+---
+*Azure DevOps backup - runs every hour at :00 minutes*
+EOF
+    return 0
 }
 
 # Function to check connectivity
