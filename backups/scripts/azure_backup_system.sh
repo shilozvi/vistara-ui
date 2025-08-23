@@ -1,6 +1,6 @@
 #!/bin/bash
 # ☁️ Azure DevOps Backup System for Vistara-UI
-# Replaces iCloud backup with Azure DevOps push
+# Azure DevOps push system
 # Created by Eagle 🦅 - 2025-08-03
 
 set -e

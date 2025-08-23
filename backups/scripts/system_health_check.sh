@@ -109,8 +109,7 @@ echo -e "${BLUE}📜 Backup Scripts${NC}"
 echo "----------------"
 check "Main backup script exists" "test -f '$BACKUP_DIR/scripts/automatic_backup_every_15_minutes.sh'"
 check "Main backup script executable" "test -x '$BACKUP_DIR/scripts/automatic_backup_every_15_minutes.sh'"
-check "iCloud backup script exists" "test -f '$BACKUP_DIR/scripts/backup_to_icloud.sh'"
-check "iCloud backup script executable" "test -x '$BACKUP_DIR/scripts/backup_to_icloud.sh'"
+# iCloud backup scripts removed - no longer needed
 check "GitHub backup script exists" "test -f '$BACKUP_DIR/scripts/backup_to_github.sh'"
 check "GitHub backup script executable" "test -x '$BACKUP_DIR/scripts/backup_to_github.sh'"
 echo ""
@@ -189,13 +188,7 @@ echo ""
 # 8. Cloud Backup Checks
 echo -e "${BLUE}☁️  Cloud Backups${NC}"
 echo "----------------"
-ICLOUD_DIR="$HOME/Library/Mobile Documents/com~apple~CloudDocs/Vistara_UI_Backups"
-check_warn "iCloud backups directory exists" "test -d '$ICLOUD_DIR'"
-
-if [ -d "$ICLOUD_DIR" ]; then
-    ICLOUD_BACKUP_COUNT=$(ls -1d "$ICLOUD_DIR/vistaraui_backup_"* 2>/dev/null | wc -l || echo 0)
-    check_warn "iCloud backups exist" "test $ICLOUD_BACKUP_COUNT -gt 0"
-fi
+# iCloud backup checks removed - no longer needed
 
 echo ""
 

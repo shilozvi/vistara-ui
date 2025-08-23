@@ -1,7 +1,7 @@
 #!/bin/bash
 # 🎯 Hierarchical Backup System with Azure DevOps (GFS - Grandfather-Father-Son)
 # By Eagle - DevOps Backup Specialist
-# Updated to use Azure DevOps instead of iCloud
+# Updated to use Azure DevOps
 # Manages hourly (6h), daily (7d), and weekly (52w) backups
 
 set -euo pipefail
