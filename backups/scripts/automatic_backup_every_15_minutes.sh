@@ -1,7 +1,7 @@
 #!/bin/bash
-# 🎯 Vistara-UI Automatic Backup Script - Every 15 Minutes
-# Based on TitanMind's proven backup system
-# Created: 2025-01-27
+# 🎯 Vistara-UI Automatic Backup Script - Every Hour (Optimized)
+# Based on TitanMind's proven backup system  
+# Created: 2025-01-27 | Optimized: 2025-08-23 by Eagle
 
 set -e
 
@@ -10,12 +10,12 @@ PROJECT_NAME="vistara-ui"
 PROJECT_DIR="/Users/zvishilovitsky/vistara-ui"
 BACKUP_DIR="$PROJECT_DIR/backups/local"
 EXTERNAL_BACKUP_DIR="/Users/zvishilovitsky/Backup_All_Projects/vistara-ui"
-BACKUP_LOG="$PROJECT_DIR/backups/logs/backup_15min.log"
-ERROR_LOG="$PROJECT_DIR/backups/logs/backup_15min_error.log"
+BACKUP_LOG="$PROJECT_DIR/backups/logs/backup_hourly.log"
+ERROR_LOG="$PROJECT_DIR/backups/logs/backup_hourly_error.log"
 ALERT_LOG="$PROJECT_DIR/backups/logs/alerts.log"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 BACKUP_NAME="backup_${TIMESTAMP}"
-MAX_BACKUPS=192  # Keep 48 hours worth (192 * 15 minutes)
+MAX_BACKUPS=48   # Keep 48 hours worth (48 * 1 hour) - Optimized from 192
 
 # Create necessary directories
 mkdir -p "$BACKUP_DIR"
@@ -45,7 +45,7 @@ send_alert() {
 }
 
 # Start backup
-log "🚀 Starting 15-minute automatic backup: $BACKUP_NAME"
+log "🚀 Starting hourly automatic backup: $BACKUP_NAME"
 
 # Check if project exists
 if [ ! -d "$PROJECT_DIR" ]; then
@@ -110,15 +110,15 @@ cp "${BACKUP_NAME}_code.tar.gz" "$EXTERNAL_BACKUP_DIR/" 2>/dev/null || {
 }
 cp "${BACKUP_NAME}_code.checksum" "$EXTERNAL_BACKUP_DIR/" 2>/dev/null || true
 
-# Clean up old backups (keep last 96)
-log "🧹 Cleaning up old backups..."
+# Clean up old backups (keep last 48 for hourly backups)
+log "🧹 Cleaning up old backups (hourly optimization)..."
 
 # Clean main backup directory
 cd "$BACKUP_DIR"
 BACKUP_COUNT=$(ls -1 backup_*_code.tar.gz 2>/dev/null | wc -l || echo 0)
 if [ $BACKUP_COUNT -gt $MAX_BACKUPS ]; then
     DELETE_COUNT=$((BACKUP_COUNT - MAX_BACKUPS))
-    log "Removing $DELETE_COUNT old backups from main location..."
+    log "Removing $DELETE_COUNT old backups from main location (optimization)..."
     ls -1t backup_*_code.tar.gz | tail -n $DELETE_COUNT | while read file; do
         BASE_NAME="${file%_code.tar.gz}"
         rm -f "${BASE_NAME}_code.tar.gz" "${BASE_NAME}_code.checksum" 2>/dev/null || true
@@ -131,7 +131,7 @@ cd "$EXTERNAL_BACKUP_DIR"
 BACKUP_COUNT=$(ls -1 backup_*_code.tar.gz 2>/dev/null | wc -l || echo 0)
 if [ $BACKUP_COUNT -gt $MAX_BACKUPS ]; then
     DELETE_COUNT=$((BACKUP_COUNT - MAX_BACKUPS))
-    log "Removing $DELETE_COUNT old backups from external location..."
+    log "Removing $DELETE_COUNT old backups from external location (optimization)..."
     ls -1t backup_*_code.tar.gz | tail -n $DELETE_COUNT | while read file; do
         BASE_NAME="${file%_code.tar.gz}"
         rm -f "${BASE_NAME}_code.tar.gz" "${BASE_NAME}_code.checksum" 2>/dev/null || true
@@ -152,7 +152,7 @@ cat > "LAST_BACKUP_STATUS.md" << EOF
 - **Project Size:** ${PROJECT_SIZE}
 - **Main Location:** $BACKUP_DIR
 - **External Location:** $EXTERNAL_BACKUP_DIR
-- **Retention:** 24 hours (96 backups)
+- **Retention:** 48 hours (48 backups) - Hourly optimized
 
 ## Verify:
 \`\`\`bash
@@ -165,13 +165,13 @@ tar -tzf ${BACKUP_NAME}_code.tar.gz | head -5
 \`\`\`
 
 ---
-*Automatic backup system - runs every 15 minutes*
+*Automatic backup system - runs every hour (optimized from 15 minutes)*
 EOF
 
 # Create info file for this backup
 cat > "$BACKUP_DIR/${BACKUP_NAME}_info.txt" << EOF
 Backup Date: $(date '+%Y-%m-%d %H:%M:%S')
-Type: 15-minute automatic
+Type: Hourly automatic (optimized)
 Project: Vistara-UI
 Project Path: $PROJECT_DIR
 Code Size: $CODE_SIZE
