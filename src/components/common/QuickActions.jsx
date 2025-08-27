@@ -11,7 +11,7 @@
  * ✅ RTL support maintained
  */
 
-import React, { useState from 'react';
+import React, { useState } from 'react';
 
 import { normalizeStyle, withNormalizedStyles } from '../../utils/normalizeStyle';
 
