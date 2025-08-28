@@ -1,9 +1,19 @@
 #!/bin/bash
-# ☁️ Azure DevOps Backup System for Vistara-UI
+# ☁️ Azure DevOps Backup System for Vistara-UI - Enhanced with Centralized Logging
 # Azure DevOps push system
 # Created by Eagle 🦅 - 2025-08-03
 
 set -e
+
+# Import centralized logging system
+BACKUP_LOGGER="/Users/zvishilovitsky/Backup_All_Projects/Archives/backup_logging_system/backup_logger.sh"
+if [ -f "$BACKUP_LOGGER" ]; then
+    source "$BACKUP_LOGGER"
+    BACKUP_LOG_VERBOSE="true"  # Enable verbose logging
+else
+    echo "⚠️  Warning: Centralized logging system not found at $BACKUP_LOGGER"
+    backup_log_execution() { echo "[$2] $3"; }  # Fallback logging
+fi
 
 PROJECT_DIR="/Users/zvishilovitsky/vistara-ui"
 LOG_FILE="$PROJECT_DIR/backups/logs/azure_backup.log"
@@ -13,9 +23,20 @@ ALERT_LOG="$PROJECT_DIR/backups/logs/alerts.log"
 # Create directories
 mkdir -p "$(dirname "$LOG_FILE")"
 
-# Logging function
+# Enhanced logging function with centralized system
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG_FILE"
+    backup_log_execution "vistara-azure" "INFO" "$1"
+}
+
+log_success() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ✅ $1" | tee -a "$LOG_FILE"
+    backup_log_execution "vistara-azure" "SUCCESS" "$1"
+}
+
+log_error() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ❌ ERROR: $1" | tee -a "$ERROR_LOG" >&2
+    backup_log_execution "vistara-azure" "FAILED" "$1"
 }
 
 # Error logging function
